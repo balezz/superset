@@ -99,6 +99,24 @@ WEBDRIVER_BASEURL_USER_FRIENDLY = WEBDRIVER_BASEURL
 
 SQLLAB_CTAS_NO_LIMIT = True
 
+BABEL_DEFAULT_LOCALE = "ru"
+LANGUAGES = {
+    "en": {"flag": "us", "name": "English"},
+    "es": {"flag": "es", "name": "Spanish"},
+    "it": {"flag": "it", "name": "Italian"},
+    "fr": {"flag": "fr", "name": "French"},
+    "zh": {"flag": "cn", "name": "Chinese"},
+    "ja": {"flag": "jp", "name": "Japanese"},
+    "de": {"flag": "de", "name": "German"},
+    "pt": {"flag": "pt", "name": "Portuguese"},
+    "pt_BR": {"flag": "br", "name": "Brazilian Portuguese"},
+    "ru": {"flag": "ru", "name": "Russian"},
+    "ko": {"flag": "kr", "name": "Korean"},
+    "sk": {"flag": "sk", "name": "Slovak"},
+    "sl": {"flag": "si", "name": "Slovenian"},
+    "nl": {"flag": "nl", "name": "Dutch"},
+}
+APP_ICON = "/static/assets/images/findata-logo-horiz.png"
 #
 # Optionally import superset_config_docker.py (which will have been included on
 # the PYTHONPATH) in order to allow for local settings to be overridden
